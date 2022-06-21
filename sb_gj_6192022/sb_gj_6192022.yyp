@@ -5,6 +5,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":2,},
     {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":0,},
     {"id":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},"order":1,},
+    {"id":{"name":"oWorldController","path":"objects/oWorldController/oWorldController.yy",},"order":2,},
     {"id":{"name":"sBlueEnemy","path":"sprites/sBlueEnemy/sBlueEnemy.yy",},"order":1,},
     {"id":{"name":"sRedEnemy","path":"sprites/sRedEnemy/sRedEnemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

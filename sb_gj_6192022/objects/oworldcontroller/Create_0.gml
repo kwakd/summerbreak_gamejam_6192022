@@ -1,0 +1,1 @@
+instance_create_depth(704,416,0,oRedEnemy);
