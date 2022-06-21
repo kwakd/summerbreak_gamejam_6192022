@@ -1,47 +1,48 @@
 shotcounter = 0;
-sprite_index = sRedEnemy
+sprite_index = sGreenEnemy;
 
 randomize()
 image_angle = choose(0, 90, 180, 270);
-show_debug_message("Red_image_angle: " + string(image_angle));
+//image_angle = 270;
+show_debug_message("Green_image_angle: " + string(image_angle));
 
-//shoots up
+//shoots up_left
 if(image_angle == 90){
 	with (instance_create_layer(x,y,"Instances", oBullet))
 	{
-		direction = 90;
+		direction = 135;
 		speed = 5;
 		shotcounter = 1;
 		//show_debug_message("shotcounter: " + string(shotcounter));
 	};
 }
 
-//shoots left
+//shoots down_left
 else if(image_angle == 180){
 	image_yscale = -1;
 	with (instance_create_layer(x,y,"Instances", oBullet))
 	{
-		direction = 180;
+		direction = 225;
 		speed = 5;
 		shotcounter = 1;
 	};
 }
 
-//shoots down
+//shoots down_right
 else if(image_angle == 270){
 	with (instance_create_layer(x,y,"Instances", oBullet))
 	{
-		direction = 270;
+		direction = 315;
 		speed = 5;
 		shotcounter = 1;
 	};
 }
 
-//shoots right
+//shoots up_right
 else{
 	with (instance_create_layer(x,y,"Instances", oBullet))
 	{
-		direction = 0;
+		direction = 45;
 		speed = 5;
 		shotcounter = 1;
 	};

@@ -3,6 +3,8 @@
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":1,},
     {"id":{"name":"sGreenEnemy","path":"sprites/sGreenEnemy/sGreenEnemy.yy",},"order":3,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":2,},
+    {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":4,},
+    {"id":{"name":"oBlueEnemy","path":"objects/oBlueEnemy/oBlueEnemy.yy",},"order":3,},
     {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":0,},
     {"id":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},"order":1,},
     {"id":{"name":"oWorldController","path":"objects/oWorldController/oWorldController.yy",},"order":2,},
