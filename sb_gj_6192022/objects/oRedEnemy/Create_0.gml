@@ -1,0 +1,2 @@
+shotcounter = 0;
+
