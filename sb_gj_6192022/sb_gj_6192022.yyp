@@ -28,8 +28,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},},
+    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
