@@ -5,6 +5,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":4,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":5,},
     {"id":{"name":"sGreenEnemy","path":"sprites/sGreenEnemy/sGreenEnemy.yy",},"order":3,},
+    {"id":{"name":"sPlayerDead","path":"sprites/sPlayerDead/sPlayerDead.yy",},"order":5,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":2,},
     {"id":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"order":6,},
     {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":1,},
