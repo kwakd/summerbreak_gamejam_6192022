@@ -7,14 +7,14 @@
     {"id":{"name":"sGreenEnemy","path":"sprites/sGreenEnemy/sGreenEnemy.yy",},"order":3,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":2,},
     {"id":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"order":6,},
-    {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":4,},
-    {"id":{"name":"oBlueEnemy","path":"objects/oBlueEnemy/oBlueEnemy.yy",},"order":3,},
-    {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":0,},
+    {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":1,},
+    {"id":{"name":"oBlueEnemy","path":"objects/oBlueEnemy/oBlueEnemy.yy",},"order":0,},
+    {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":2,},
     {"id":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},"order":1,},
     {"id":{"name":"oWorldController","path":"objects/oWorldController/oWorldController.yy",},"order":2,},
     {"id":{"name":"sBlueEnemy","path":"sprites/sBlueEnemy/sBlueEnemy.yy",},"order":1,},
     {"id":{"name":"sRedEnemy","path":"sprites/sRedEnemy/sRedEnemy.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"mainStage","path":"rooms/mainStage/mainStage.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -28,9 +28,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
+    {"roomId":{"name":"mainStage","path":"rooms/mainStage/mainStage.yy",},},
     {"roomId":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -47,6 +47,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemies.yy","order":7,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
