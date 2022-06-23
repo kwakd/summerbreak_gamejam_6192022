@@ -1,8 +1,5 @@
-shotcounter = 0;
 sprite_index = sBlueEnemy
 
-randomize()
-show_debug_message("Blue_image_angle: " + string(image_angle));
 
 //shoots down
 if(oWorldController.randomEnemyDirection == "top"){
@@ -25,8 +22,6 @@ else if(oWorldController.randomEnemyDirection == "right"){
 	image_xscale = -1;
 	instance_create_depth(x,y,0,oBullet);
 }
-
-
 
 alarm[0] = room_speed;
 
