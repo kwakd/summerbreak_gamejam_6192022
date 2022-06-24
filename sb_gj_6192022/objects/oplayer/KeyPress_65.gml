@@ -6,4 +6,4 @@ y = view_yview + view_hview * 0.5;
 oPlayer.x = max(x, oPlayer.x - x);
 oPlayer.y = y;
 
-alarm[0] = 120;
+alarm[0] = room_speed;

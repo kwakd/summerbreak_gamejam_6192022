@@ -9,4 +9,11 @@ y = view_yview + view_hview * 0.5;
 
 instance_create_depth(x, y, 0, oPlayer);
 
+
+instance_create_depth(683,60,1, oTestObj);
+instance_create_depth(683,708,1,oTestObj);
+instance_create_depth(359,384,1,oTestObj);
+instance_create_depth(1007,384,1,oTestObj);
+
+
 alarm[0] = room_speed;

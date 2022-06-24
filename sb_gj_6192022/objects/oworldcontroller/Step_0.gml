@@ -1,3 +1,4 @@
+
 if(fire == true){
 	randomEnemyColor = choose("green", "blue", "red");
 	//randomEnemyColor = "red";
@@ -13,10 +14,10 @@ if(fire == true){
 			instance_create_depth(683,708,0,oRedEnemy);
 		}
 		else if(randomEnemyDirection == "left"){
-			instance_create_depth(401.5,384,0,oRedEnemy);
+			instance_create_depth(359,384,0,oRedEnemy);
 		}
 		else if(randomEnemyDirection == "right"){
-			instance_create_depth(964.5,384,0,oRedEnemy);
+			instance_create_depth(1007,384,0,oRedEnemy);
 		}
 	}
 	
@@ -28,10 +29,10 @@ if(fire == true){
 			instance_create_depth(683,708,0,oBlueEnemy);
 		}
 		else if(randomEnemyDirection == "left"){
-			instance_create_depth(401.5,384,0,oBlueEnemy);
+			instance_create_depth(359,384,0,oBlueEnemy);
 		}
 		else if(randomEnemyDirection == "right"){
-			instance_create_depth(964.5,384,0,oBlueEnemy);
+			instance_create_depth(1007,384,0,oBlueEnemy);
 		}
 	}
 	
@@ -43,10 +44,10 @@ if(fire == true){
 			instance_create_depth(683,708,0,oGreenEnemy);
 		}
 		else if(randomEnemyDirection == "left"){
-			instance_create_depth(401.5,384,0,oGreenEnemy);
+			instance_create_depth(359,384,0,oGreenEnemy);
 		}
 		else if(randomEnemyDirection == "right"){
-			instance_create_depth(964.5,384,0,oGreenEnemy);
+			instance_create_depth(1007,384,0,oGreenEnemy);
 		}
 	}
 
