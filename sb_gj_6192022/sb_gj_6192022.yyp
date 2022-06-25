@@ -29,9 +29,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"mainStage","path":"rooms/mainStage/mainStage.yy",},},
     {"roomId":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},},
-    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

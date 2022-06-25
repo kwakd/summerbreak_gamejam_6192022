@@ -1,5 +1,5 @@
-x = view_xview + view_wview * 0.5;
-y = view_yview + view_hview * 0.5;
+x = view_xview + view_wview;
+y = view_yview + view_hview;
 
-oPlayer.x = x;
-oPlayer.y = y;
+oPlayer.x = x / 2;
+oPlayer.y = y / 2;

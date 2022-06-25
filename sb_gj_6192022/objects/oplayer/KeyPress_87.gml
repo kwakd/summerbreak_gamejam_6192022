@@ -1,9 +1,18 @@
 show_debug_message("W pressed");
 
-x = view_xview + view_wview * 0.5;
-y = view_yview + view_hview * 0.25;
+xCenter = (view_xview + view_wview) / 2;
+yCenter = (view_yview + view_hview) / 2;
 
-oPlayer.x = x;
-oPlayer.y = y;
+yNew = y - verticalJumpDistance;
 
-alarm[0] = 240;
+show_debug_message("Old y: " + string(y) + " - New y: " + string(yNew));
+
+if yNew >= yCenter - verticalJumpDistance {
+	y = yNew;
+}
+
+if x != xCenter {
+	x = xCenter;
+}
+
+alarm[0] = 120;
