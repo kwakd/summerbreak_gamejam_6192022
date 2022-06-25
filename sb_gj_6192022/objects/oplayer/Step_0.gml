@@ -3,3 +3,5 @@ if(playerLife == 0){
 	sprite_index = sPlayerDead;
 	alarm[1] = room_speed;
 }
+
+//alarm[0] = room_speed;
