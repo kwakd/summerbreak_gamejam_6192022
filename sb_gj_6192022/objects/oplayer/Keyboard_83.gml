@@ -1,14 +1,15 @@
 show_debug_message("S pressed");
 
-yCenter = (view_yview + view_hview) / 2;
+xCenter = view_get_wport(0) / 2;
+yCenter = view_get_hport(0) / 2;
 
 yNew = y + verticalJumpDistance;
 
 show_debug_message("Old y: " + string(y) + " - New y: " + string(yNew));
 
-if yNew <= yCenter + verticalJumpDistance {
-	//oPlayer.x = x;
+if yNew <= yCenter + verticalJumpDistance && jumps > 0 {
 	y = yNew;
+	jumps -= 1;
 }
 
 if x != xCenter {
