@@ -1,9 +1,8 @@
-
 if(fire == true){
 	randomEnemyColor = choose("green", "blue", "red");
 	//randomEnemyColor = "red";
 	
-	randomEnemyDirection = choose("top", "bot", "left", "right",);
+	randomEnemyDirection = choose("top", "bot", "left", "right");
 	//randomEnemyDirection = "left";
 	//randomEnemyDirection = choose("top", "bot");
 	if(randomEnemyColor == "red"){
@@ -53,3 +52,11 @@ if(fire == true){
 
 	fire = false;
 }
+
+if(instance_exists(oPlayer)){
+	playerScore += 1;
+}
+else{
+	playerScore += 0;
+}
+
