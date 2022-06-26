@@ -1,5 +1,5 @@
-x = view_xview + view_wview;
-y = view_yview + view_hview;
+width = view_get_wport(0);
+height = view_get_hport(0);
 
-oPlayer.x = x / 2;
-oPlayer.y = y / 2;
+x = width / 2;
+y = height / 2;
