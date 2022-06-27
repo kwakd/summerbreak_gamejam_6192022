@@ -12,6 +12,7 @@
     {"id":{"name":"sndPlayerMovement","path":"sounds/sndPlayerMovement/sndPlayerMovement.yy",},"order":0,},
     {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":1,},
     {"id":{"name":"oBlueEnemy","path":"objects/oBlueEnemy/oBlueEnemy.yy",},"order":0,},
+    {"id":{"name":"sndBullet","path":"sounds/sndBullet/sndBullet.yy",},"order":1,},
     {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":2,},
     {"id":{"name":"oTestObj","path":"objects/oTestObj/oTestObj.yy",},"order":8,},
     {"id":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},"order":1,},

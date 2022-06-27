@@ -1,5 +1,5 @@
 {
-  "name": "sndPlayerMovement",
+  "name": "sndBullet",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
@@ -12,8 +12,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndplayermovement.wav",
-  "duration": 0.05161,
+  "soundFile": "sndbullet.wav",
+  "duration": 0.041043,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
