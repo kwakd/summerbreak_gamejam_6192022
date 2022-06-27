@@ -9,6 +9,7 @@
     {"id":{"name":"sPlayerDead","path":"sprites/sPlayerDead/sPlayerDead.yy",},"order":5,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":2,},
     {"id":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"order":6,},
+    {"id":{"name":"sndPlayerMovement","path":"sounds/sndPlayerMovement/sndPlayerMovement.yy",},"order":0,},
     {"id":{"name":"oGreenEnemy","path":"objects/oGreenEnemy/oGreenEnemy.yy",},"order":1,},
     {"id":{"name":"oBlueEnemy","path":"objects/oBlueEnemy/oBlueEnemy.yy",},"order":0,},
     {"id":{"name":"oRedEnemy","path":"objects/oRedEnemy/oRedEnemy.yy",},"order":2,},
@@ -31,8 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"mainStage","path":"rooms/mainStage/mainStage.yy",},},
+    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},},
   ],
   "Folders": [

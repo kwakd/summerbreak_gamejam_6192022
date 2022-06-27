@@ -1,1 +1,1 @@
-instance_destroy(oPlayer);
+//instance_destroy(oPlayer);
