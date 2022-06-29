@@ -3,6 +3,7 @@
     {"id":{"name":"sTestPos","path":"sprites/sTestPos/sTestPos.yy",},"order":6,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":1,},
     {"id":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},"order":2,},
+    {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},"order":9,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":4,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":5,},
     {"id":{"name":"sGreenEnemy","path":"sprites/sGreenEnemy/sGreenEnemy.yy",},"order":3,},
@@ -31,8 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"mainStage","path":"rooms/mainStage/mainStage.yy",},},
+    {"roomId":{"name":"playerTestRoom","path":"rooms/playerTestRoom/playerTestRoom.yy",},},
     {"roomId":{"name":"enemTestRoom","path":"rooms/enemTestRoom/enemTestRoom.yy",},},
   ],
   "Folders": [
