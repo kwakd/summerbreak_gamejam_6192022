@@ -10,6 +10,7 @@ show_debug_message("Old y: " + string(y) + " - New y: " + string(yNew));
 if yNew <= yCenter + verticalJumpDistance && jumps > 0 {
 	y = yNew;
 	jumps -= 1;
+	audio_play_sound(sndPlayerMovement, 10, false);
 }
 
 if x != xCenter {

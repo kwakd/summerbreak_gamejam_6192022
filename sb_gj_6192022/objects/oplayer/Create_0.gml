@@ -1,4 +1,4 @@
-#macro horizontalJumpDistance 300
+#macro horizontalJumpDistance 200
 #macro verticalJumpDistance 200
 
 

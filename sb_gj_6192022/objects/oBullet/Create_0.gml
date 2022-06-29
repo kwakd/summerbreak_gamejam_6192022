@@ -66,3 +66,5 @@ else if(oWorldController.randomEnemyColor == "green"){
 		direction = 225;
 	}
 }
+
+audio_play_sound(sndBullet, 9, false);
