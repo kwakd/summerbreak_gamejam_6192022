@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndbullet.wav",
-  "duration": 0.041043,
+  "soundFile": "sndplayerhit.wav",
+  "duration": 0.329909,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndBullet",
+  "name": "sndPlayerHit",
   "tags": [],
   "resourceType": "GMSound",
 }
