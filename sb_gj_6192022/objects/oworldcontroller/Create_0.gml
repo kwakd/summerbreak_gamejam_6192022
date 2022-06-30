@@ -1,3 +1,4 @@
+
 var spawn1 = [683, 60];		// TOP
 var spawn2 = [683, 708];	// BOT
 var spawn3 = [359, 384];	// LEFT
@@ -7,6 +8,10 @@ var Pmove1 = [683, 184];	// TOP
 var Pmove2 = [683, 584];	// BOT
 var Pmove3 = [483, 384];	// LEFT
 var Pmove4 = [883, 384];	// RIGHT
+
+var xValues = [359, 683, 1007];
+var yValues = [60, 384, 708];
+
 
 
 randomize();
@@ -27,11 +32,13 @@ height = view_get_hport(0);
 
 instance_create_depth(width / 2, height / 2, 0, oPlayer);
 
-
-instance_create_depth(spawn1[0],spawn1[1],1,oTestObj);
-instance_create_depth(spawn2[0],spawn2[1],1,oTestObj);
-instance_create_depth(spawn3[0],spawn3[1],1,oTestObj);
-instance_create_depth(spawn4[0],spawn4[1],1,oTestObj);
+for (var i = 0; i < 3; i++) {
+	for (var j = 0; j < 3; j++) {
+		if i != 1 || j != 1 {
+			instance_create_depth(xValues[i], yValues[j], 1, oTestObj);
+		}
+	}
+}
 
 instance_create_depth(Pmove1[0],Pmove1[1],1,oTestPlayerPos);
 instance_create_depth(Pmove2[0],Pmove2[1],1,oTestPlayerPos);
