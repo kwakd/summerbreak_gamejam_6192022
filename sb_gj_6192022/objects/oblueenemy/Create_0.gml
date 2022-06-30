@@ -23,5 +23,5 @@ else if(oWorldController.randomEnemyDirection == "right"){
 	instance_create_depth(x,y,0,oBullet);
 }
 
-alarm[0] = room_speed;
+alarm[0] = room_speed * oWorldController.diffLvl;
 
