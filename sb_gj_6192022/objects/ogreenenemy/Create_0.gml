@@ -25,5 +25,5 @@ else if(oWorldController.randomEnemyDirection == "right"){
 
 
 
-alarm[0] = room_speed;
+alarm[0] = room_speed * oWorldController.diffLvl;
 

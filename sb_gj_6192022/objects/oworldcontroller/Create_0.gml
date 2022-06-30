@@ -12,7 +12,8 @@ var Pmove4 = [883, 384];	// RIGHT
 var xValues = [359, 683, 1007];
 var yValues = [60, 384, 708];
 
-
+diffLvl = 1;
+durLvl = 20;
 
 randomize();
 fire = false;
@@ -21,7 +22,7 @@ playerScore = 0;
 
 view_camera[0] = camera_create();
 var viewmat = matrix_build_lookat(683, 384, -10, 683, 384, 0, 0, 1, 0);
-var projmat = matrix_build_projection_ortho(1366, 768, 1.0, 32000.0);
+var projmat = matrix_basdwauild_projection_ortho(1366, 768, 1.0, 32000.0);
 camera_set_view_mat(view_camera[0], viewmat);
 camera_set_proj_mat(view_camera[0], projmat);
 
@@ -48,4 +49,5 @@ instance_create_depth(Pmove4[0],Pmove4[1],1,oTestPlayerPos);
 
 //instance_create_depth(0,0, oScore);
 
-alarm[0] = room_speed;
+alarm[0] = room_speed * diffLvl;
+alarm[1] = room_speed * durLvl;
