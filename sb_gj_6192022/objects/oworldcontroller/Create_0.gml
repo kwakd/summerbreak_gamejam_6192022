@@ -1,5 +1,17 @@
+
+var spawn1 = [683, 60];		// TOP
+var spawn2 = [683, 708];	// BOT
+var spawn3 = [359, 384];	// LEFT
+var spawn4 = [1007, 384];	// RIGHT
+
+var Pmove1 = [683, 184];	// TOP
+var Pmove2 = [683, 584];	// BOT
+var Pmove3 = [483, 384];	// LEFT
+var Pmove4 = [883, 384];	// RIGHT
+
 var xValues = [359, 683, 1007];
 var yValues = [60, 384, 708];
+
 
 
 randomize();
@@ -27,6 +39,11 @@ for (var i = 0; i < 3; i++) {
 		}
 	}
 }
+
+instance_create_depth(Pmove1[0],Pmove1[1],1,oTestPlayerPos);
+instance_create_depth(Pmove2[0],Pmove2[1],1,oTestPlayerPos);
+instance_create_depth(Pmove3[0],Pmove3[1],1,oTestPlayerPos);
+instance_create_depth(Pmove4[0],Pmove4[1],1,oTestPlayerPos);
 
 
 //instance_create_depth(0,0, oScore);
