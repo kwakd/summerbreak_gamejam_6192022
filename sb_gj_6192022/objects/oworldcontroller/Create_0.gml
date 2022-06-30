@@ -1,7 +1,5 @@
-var spawn1 = [683, 60];
-var spawn2 = [683, 708];
-var spawn3 = [359, 384];
-var spawn4 = [1007, 384];
+var xValues = [359, 683, 1007];
+var yValues = [60, 384, 708];
 
 
 randomize();
@@ -18,11 +16,13 @@ height = view_get_hport(0);
 
 instance_create_depth(width / 2, height / 2, 0, oPlayer);
 
-
-instance_create_depth(spawn1[0],spawn1[1],1,oTestObj);
-instance_create_depth(spawn2[0],spawn2[1],1,oTestObj);
-instance_create_depth(spawn3[0],spawn3[1],1,oTestObj);
-instance_create_depth(spawn4[0],spawn4[1],1,oTestObj);
+for (var i = 0; i < 3; i++) {
+	for (var j = 0; j < 3; j++) {
+		if i != 1 || j != 1 {
+			instance_create_depth(xValues[i], yValues[j], 1, oTestObj);
+		}
+	}
+}
 
 
 alarm[0] = room_speed;
