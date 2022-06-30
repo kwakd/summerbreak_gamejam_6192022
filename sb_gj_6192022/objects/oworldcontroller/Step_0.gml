@@ -1,10 +1,10 @@
 if(fire == true){
 	randomEnemyColor = choose("green", "blue", "red");
-	//randomEnemyColor = "red";
+	//randomEnemyColor = "green";
 	
 	randomEnemyDirection = choose("top", "bot", "left", "right");
 	//randomEnemyDirection = "left";
-	//randomEnemyDirection = choose("top", "bot");
+
 	if(randomEnemyColor == "red"){
 		if(randomEnemyDirection == "top"){
 			instance_create_depth(683,60,0,oRedEnemy);
