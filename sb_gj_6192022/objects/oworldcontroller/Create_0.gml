@@ -17,7 +17,6 @@ durLvl = 20;
 
 randomize();
 fire = false;
-
 playerScore = 0;
 
 view_camera[0] = camera_create();

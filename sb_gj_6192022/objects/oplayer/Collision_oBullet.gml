@@ -1,4 +1,8 @@
 audio_play_sound(sndPlayerHit, 9, false);
-playerLife -= 1;
-show_debug_message("PLAYER HIT, LIFE LEFT: " + string(playerLife));
 instance_destroy(oBullet);
+
+show_debug_message("PLAYER IS NOW DEAD");
+sprite_index = sPlayerDead;
+jumps = -1;
+	
+alarm[1] = 60;
