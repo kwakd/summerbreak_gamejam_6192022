@@ -9,7 +9,7 @@ var xValues = [359, 683, 1007];
 var yValues = [60, 384, 708];
 
 diffLvl = 1;
-durLvl = 15;
+durLvl = 10;
 
 randomize();
 fire = false;
@@ -28,6 +28,7 @@ height = view_get_hport(0);
 
 instance_create_depth(width / 2, height / 2, 0, oPlayer);
 
+/*
 for (var i = 0; i < 3; i++) {
 	for (var j = 0; j < 3; j++) {
 		if i != 1 || j != 1 {
@@ -35,6 +36,7 @@ for (var i = 0; i < 3; i++) {
 		}
 	}
 }
+*/
 
 instance_create_depth(Pmove0[0],Pmove0[1],1,oTestPlayerPos);
 instance_create_depth(Pmove1[0],Pmove1[1],1,oTestPlayerPos);
