@@ -17,4 +17,4 @@ if x != xCenter {
 	x = xCenter;
 }
 
-alarm[0] = 120;
+//alarm[0] = 120;
